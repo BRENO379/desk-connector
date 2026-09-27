@@ -1,0 +1,8 @@
+{
+  // Long lines are normal in prose and links.
+  "MD013": false,
+  // README uses inline HTML (e.g. <br>, &lt;) on purpose.
+  "MD033": false,
+  // Repeated headings like "Example" are fine under different sections.
+  "MD024": { "siblings_only": true }
+}
